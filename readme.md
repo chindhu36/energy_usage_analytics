@@ -120,8 +120,7 @@ Connect to PostgreSQL, Load Data to PowerBI
 - `models`: SQL files that transform data
 - `sources`: define upstream tables (like `raw.smart_meter_readings`)
 - `tests`: catch bad data early (e.g., `not_null`, `unique`)
-- `ref()` and `source()`: create dependency graph
-- `incremental models`: only load new data (advanced)
+
 
 ---
 
