@@ -1,5 +1,5 @@
 
-# 📘 Learning Project: Energy Analytics Dashboard with dbt + PostgreSQL + PowerBI
+# 📘 Energy Analytics Dashboard with dbt + PostgreSQL + PowerBI
 
 This project is designed as a **learning journey** to help you understand how to build an end-to-end analytics pipeline using **dbt**, **PostgreSQL**, and **PowerBI**, using simulated smart meter energy data.
 
