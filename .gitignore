@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+
+# dbt
+target/
+logs/
+.dbt/
+
+# Power BI
+*.pbix
+
+# OS
+.DS_Store
+Thumbs.db

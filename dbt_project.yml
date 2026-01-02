@@ -1,0 +1,21 @@
+name: energy_analytics
+version: '1.0'
+config-version: 2
+
+profile: default
+
+model-paths: ["models"]
+seed-paths: ["data"]
+
+models:
+  energy_analytics:
+    +materialized: table
+    
+seeds:
+  energy_analytics:
+    households:
+      +header: true
+    smart_meter_readings:
+      +header: true
+    tariff_rates:
+      +header: true
